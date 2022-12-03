@@ -1,0 +1,115 @@
+body{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+    z-index: -1;
+}
+
+h1{
+    color: darkblue;
+}
+h2{
+    color: black;
+}
+.heading{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.heading1{
+    margin-top: 270px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.main-Head{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: cyan;
+    align-items: center;
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.main-Head > h1{
+    color: orangered;
+}
+
+.container{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    background: linear-gradient(to right, #00ff3c, #fff200);
+    justify-content: center;
+    align-items: center;
+}
+
+.container .time{
+    position: relative;
+    width: calc(100px - 30px);
+    height: calc(100px - 30px);
+    background: rgb(255, 255, 255);
+    float: left;
+    justify-content: center; 
+    left: 425px;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 12px;
+    border: 1px solid black;
+}
+
+.colon {
+    position: relative;
+    width: 30px;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    float: left;
+    left: 425px;
+    top: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 1px solid black
+}
+
+.timeFormat{
+    position: relative;
+    width: calc(100px - 30px);
+    height: calc(100px - 30px);
+    background: rgb(255, 255, 255);
+    float: left;
+    justify-content: center; 
+    left: 460px;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 12px;
+    border: 1px solid black
+}
+
+.container1{
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    background: linear-gradient(to right, #23fa55, #faf02d);
+    justify-content: center;
+    align-items: center;
+}
+
+
+
